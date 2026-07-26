@@ -1,7 +1,23 @@
 aid: enya
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enya.png
 name: Enya
-description: Enya is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Enya is a Singapore-based sustainable period-care consumer brand backed by 500 Global (500
+  Southeast Asia) and Crusade Partners. Founded by Christian Teo, Enya sells certified organic cotton
+  sanitary pads, liners, tampons, menstrual cups, period underwear and heating patches direct-to-consumer
+  and via subscription (15/30/45/90-day cadence) across Singapore, Asia and the Middle East, through its
+  enya.sg storefront, Shopee and retail partners such as DKSH. It is a consumer packaged-goods / e-commerce
+  business with no public API, developer portal, or programmatic surface.
 url: https://raw.githubusercontent.com/api-evangelist/enya/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +25,21 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-status: no-api-surface
+x-enrichment-note: 'Identity corrected 2026-07-20. The 500 Global-backed Enya is Singapore period-care
+  brand enya.sg (not the parked enya.my probed 2026-07-19, and not the unrelated Web3 company Enya Labs at
+  enya.ai). Enya is a consumer-products / e-commerce business with no API, developer docs, SDKs, or
+  .well-known surface to enrich. Nothing further to enrich unless the brand publishes a developer program.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Consumer Products
+- E-Commerce
+- Health
+- Retail
+- Subscription
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://enya.my
+  url: https://www.enya.sg/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
