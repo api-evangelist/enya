@@ -30,7 +30,7 @@ x-enrichment-note: 'Identity corrected 2026-07-20. The 500 Global-backed Enya is
   brand enya.sg (not the parked enya.my probed 2026-07-19, and not the unrelated Web3 company Enya Labs at
   enya.ai). Enya is a consumer-products / e-commerce business with no API, developer docs, SDKs, or
   .well-known surface to enrich. Nothing further to enrich unless the brand publishes a developer program.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
